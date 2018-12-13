@@ -82,6 +82,8 @@
 
 ![](picture/2018.jpg)
 
+#### 如果Github下载不了，可到Q群78797078中下载
+
 #### 如果您觉得我的开源库帮你节省了大量的时间，请扫描下方的二维码随意打赏，要是能打赏个 10.24 :monkey_face:就太:thumbsup:了。您的支持将鼓励我继续创作:octocat:
 
 ![](picture/pay_ali.png) ![](picture/pay_wechat.png)

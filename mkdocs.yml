@@ -1,0 +1,30 @@
+site_name: EmojiPackage
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.indexes
+
+repo_url: https://github.com/getActivity/EmojiPackage
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+
+extra:
+  analytics:
+    provider: google
+    property: UA-145083103-1

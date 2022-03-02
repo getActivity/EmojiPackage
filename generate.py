@@ -10,6 +10,8 @@ README_MD = ['README.md', 'readme.md', 'index.md']
 INDEX_FILE = 'index.md'
 
 IMAGE_EXTS = ['jpg', 'png', 'svg', 'jpeg', 'gif', 'webp']
+IMAGE_URL_PREFIX = 'https://github.com/beiyuouo/hainanu-course-comments/blob/main/'
+BIN_URL_PREFIX = 'https://github.com/beiyuouo/hainanu-course-comments/raw/main/'
 
 
 def list_image(course: str):
@@ -21,8 +23,7 @@ def list_image(course: str):
         level = root.replace(course, '').count(os.sep)
         for f in files:
             if f.split('.')[-1].lower() in IMAGE_EXTS:
-                imagelist_text += '![]({}){{ width="200" }}\n'.format(
-                    os.path.join(os.path.basename(root), f))
+                imagelist_text += '![]({}){{ width="200" }}\n'.format(os.path.join(f))
     return imagelist_text, readme_path
 
 
@@ -53,15 +54,9 @@ if __name__ == '__main__':
             shutil.rmtree(target_path)
         shutil.copytree(topic_path, target_path)
 
-        courses = list(
-            filter(
-                lambda x: os.path.isdir(os.path.join(topic_path, x)) and
-                (x not in EXCLUDE_DIRS), os.listdir(topic_path)))  # list courses
-
-        for course in courses:
-            course_path = os.path.join(".", topic, course)
-            imagelist_text, readme_path = list_image(course_path)
-            generate_md(course, imagelist_text, readme_path, topic)
+        topic_path = os.path.join(".", topic)
+        imagelist_text, readme_path = list_image(topic_path)
+        generate_md('index', imagelist_text, readme_path, topic)
 
     with open('README.md', 'rb') as file:
         mainreadme_lines = file.readlines()

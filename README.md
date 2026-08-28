@@ -22,9 +22,17 @@
 
 ![](picture/背锅.jpg)
 
+## 不愧是你
+
+![](picture/不愧是你.webp)
+
 ## 操作
 
 ![](picture/操作.jpg)
+
+## 蹭饭
+
+![](picture/蹭饭.webp)
 
 ## 撤回
 
@@ -45,6 +53,10 @@
 ## 单身
 
 ![](picture/单身.jpg)
+
+## 得加钱
+
+![](picture/得加钱.webp)
 
 ## 斗图
 
@@ -122,6 +134,10 @@
 
 ![](picture/罗翔.jpg)
 
+## 摸鱼
+
+![](picture/摸鱼.webp)
+
 ## 难过
 
 ![](picture/难过.jpg)
@@ -141,6 +157,10 @@
 ## 睡觉
 
 ![](picture/睡觉.jpg)
+
+## 死掉了
+
+![](picture/死掉了.webp)
 
 ## 套路
 
@@ -181,6 +201,10 @@
 ## 药丸
 
 ![](picture/药丸.jpg)
+
+## 又错了
+
+![](picture/又错了.webp)
 
 ## 鹦鹉兄弟
 

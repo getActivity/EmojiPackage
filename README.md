@@ -22,6 +22,14 @@
 
 ![](picture/背锅.jpg)
 
+## 不愧是我
+
+![](picture/不愧是我.webp)
+
+## 别催啦
+
+![](picture/别催啦.webp)
+
 ## 操作
 
 ![](picture/操作.jpg)
@@ -106,9 +114,17 @@
 
 ![](picture/金钱.jpg)
 
+## 救命啊
+
+![](picture/救命啊.webp)
+
 ## 开车
 
 ![](picture/开车.jpg)
+
+## 开饭啦
+
+![](picture/开饭啦.webp)
 
 ## 夸奖
 
@@ -185,6 +201,14 @@
 ## 鹦鹉兄弟
 
 ![](picture/鹦鹉兄弟.jpg)
+
+## 再睡五分钟
+
+![](picture/再睡五分钟.webp)
+
+## 这合理吗
+
+![](picture/这合理吗.webp)
 
 ## 抓获
 
